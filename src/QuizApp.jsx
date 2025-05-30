@@ -124,13 +124,18 @@ export default function QuizApp() {
         src='img/misha.jpg'
         alt='misha'
         width={200}
-        style={{ position: 'absolute', top: '20px', left: '20px' }}
+        style={{ position: 'absolute', top: '20px', left: '20px', zIndex: -1 }}
       />
       <img
         src='img/lgbt.jpg'
         alt='lgbt'
         width={200}
-        style={{ position: 'absolute', bottom: '20px', right: '20px' }}
+        style={{
+          position: 'absolute',
+          bottom: '20px',
+          right: '20px',
+          zIndex: -1,
+        }}
       />
       <h2 style={{ fontSize: '20px', fontWeight: 'bold' }}>
         Întrebarea {index + 1} din {quizData.length}: {question.question}
