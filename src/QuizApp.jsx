@@ -121,13 +121,13 @@ export default function QuizApp() {
       }}
     >
       <img
-        src='/img/misha.jpg'
+        src='img/misha.jpg'
         alt='misha'
         width={200}
         style={{ position: 'absolute', top: '20px', left: '20px' }}
       />
       <img
-        src='/img/lgbt.jpg'
+        src='img/lgbt.jpg'
         alt='lgbt'
         width={200}
         style={{ position: 'absolute', bottom: '20px', right: '20px' }}
