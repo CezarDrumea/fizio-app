@@ -1,6 +1,6 @@
 html {
   background-color: rgb(255, 226, 231);
-  background-image: url('img/misha.jpg'), url('img/lgbt.jpg');
+  background-image: url('/img/misha.jpg'), url('/img/lgbt.jpg');
   background-repeat: no-repeat, no-repeat;
   background-position: top left, bottom right;
   background-size: 200px auto, 200px auto;
